@@ -13,9 +13,9 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 
 > **Use these Commands to control the driver (via chat)**
 
-'/holdtaxi'for hold the drive  
-'/gotaxi' for resume the drive  
-'/canceltaxi' for cancel the drive  
+`/holdtaxi` for hold the drive  
+`/gotaxi` for resume the drive  
+`/canceltaxi` for cancel the drive  
 
 # **Install**
 
