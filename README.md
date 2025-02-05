@@ -15,18 +15,18 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" or "ensure vip_taxi" in your server.cfg - Enjoy your drive!  
 
 # Release-State
-- [x] v1.0.0 Simple Taxi script  
+- [x] **v1.0.0 Simple Taxi script**  
       - command `/taxi`  
       - super_diamond vehicle model for luxury feeling  
       - always black car  
       - VIP license plate  
-- [x] v1.1.0 more commands for control  
+- [x] **v1.1.0 more commands for control**  
       - command `/holdtaxi` for immediately hold the drive  
       - command `/gotaxi` for continue the drive  
       - command `/canceltaxi` for cancel the drive  
-- [ ] Bugfixes & NUI for easier control
-- [ ] Music Control
-- [ ] NUI Update with option for more waypoints and real taxi behavior (GOAL) :tada:
+- [ ] *Bugfixes & NUI for easier control*
+- [ ] *Music Control*
+- [ ] *NUI Update with option for more waypoints and real taxi behavior (GOAL)* :tada:
 
 # **In-Game**
 *Create a Waypoint first*  
