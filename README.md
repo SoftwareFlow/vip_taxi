@@ -1,7 +1,7 @@
 ## vip_taxi
 ### NPC Taxi for FiveM
 
-This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your desire location in style.
+This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your desire location in style. It does not need any Framework.
 
 # **How to use it**
 
