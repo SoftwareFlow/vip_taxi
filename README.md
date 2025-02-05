@@ -1,5 +1,5 @@
 # vip_taxi
-###NPC Taxi for FiveM###
+###NPC Taxi for FiveM
 This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your desire location in style.
 
 **How to use it**
