@@ -16,6 +16,10 @@ Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" 
 
 # Release-State
 - [x] 1.0.0 Simple Taxi script
+      - command /taxi
+      - super_diamond vehicle model for luxury feeling
+      - always black car
+      - VIP license plate
 - [ ] Bugfixes & more commands for control
 - [ ] Bugfixes & NUI for easier control
 - [ ] Music Control
