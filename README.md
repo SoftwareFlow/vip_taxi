@@ -10,6 +10,10 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 2. Type in your chat "/taxi"
 3. The NPC drive you safely trhou the City
 4. If you arrived your destination, the car will be deleted
+>**Use these Commands to control the driver (via chat)**
+'/holdtaxi'for hold the drive  
+'/gotaxi' for resume the drive  
+'/canceltaxi' for cancel the drive  
 
 # **Install**
 
