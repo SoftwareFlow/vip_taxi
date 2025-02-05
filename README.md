@@ -12,4 +12,11 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 
 # **Install**
 
-Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" in your server.cfg - Enjoy your drive!
+Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" or "ensure vip_taxi" in your server.cfg - Enjoy your drive!
+
+# **In-Game**
+*Create a Waypoint first*  
+![GIF Animation, set a waypoint](https://i.postimg.cc/6327rXhM/waypoint.gif)  
+  
+*Type "/taxi" in your chat as a command*  
+![GIF Animation, spawned vehicle with NPC Driver](https://i.postimg.cc/9FG7gcHS/drive.gif)
