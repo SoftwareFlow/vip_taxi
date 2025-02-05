@@ -18,6 +18,7 @@ RegisterCommand("taxi", function()
     local taxi = CreateVehicle(vehicleModel, playerPos.x + 5, playerPos.y + 5, playerPos.z, GetEntityHeading(playerPed), true, false)
     SetEntityAsMissionEntity(taxi, true, true)
     SetVehicleDoorsLocked(taxi, 1)  -- Is vehicle locked?
+    SetVehicleColours(taxi, 1, 64)
     SetVehicleNumberPlateText(taxi, "VIP")
 
     -- LOAD NPC MODEL --
