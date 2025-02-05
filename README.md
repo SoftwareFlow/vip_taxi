@@ -7,7 +7,7 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 > [!IMPORTANT]  
 > It is important to set the Waypoint first, before you call the taxi  
 1. Set your Waypoint at the Map
-2. Type in your chat "/taxi"
+2. Type in your chat `/taxi`
 3. The NPC drive you safely trhou the City
 4. If you arrived your destination, the car will be deleted
 
