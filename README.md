@@ -3,8 +3,9 @@
 
 This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your desire location in style. It does not need any Framework.
 
-# **How to use it**
-
+# **How to use it**  
+> [!IMPORTANT]  
+> It is important to set they Waypoint first, before you call the taxi  
 1. Set your Waypoint at the Map
 2. Type in your chat "/taxi"
 3. The NPC drive you safely trhou the City
