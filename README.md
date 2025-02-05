@@ -20,7 +20,10 @@ Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" 
       - super_diamond vehicle model for luxury feeling  
       - always black car  
       - VIP license plate  
-- [ ] Bugfixes & more commands for control
+- [x] v1.1.0 more commands for control
+      - command /holdtaxi for ... hold the drive
+      - command /gotaxi for continue the drive
+      - command /canceltaxi for cancel the drive
 - [ ] Bugfixes & NUI for easier control
 - [ ] Music Control
 - [ ] NUI Update with option for more waypoints and real taxi behavior (GOAL) :tada:
