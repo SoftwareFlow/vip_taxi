@@ -21,7 +21,7 @@ Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" 
       - always black car  
       - VIP license plate  
 - [x] v1.1.0 more commands for control
-      - command /holdtaxi for ... hold the drive  
+      - command /holdtaxi for immediately hold the drive  
       - command /gotaxi for continue the drive  
       - command /canceltaxi for cancel the drive  
 - [ ] Bugfixes & NUI for easier control
