@@ -79,3 +79,40 @@ RegisterCommand("taxi", function()
         --print("No Waypoint set, taxi stay idle.") -- FOR DEBUG ONLY! READ IN F8
     end
 end, false)
+
+-- HOLD THE DRIVE --
+RegisterCommand("holdtaxi", function()
+    if isTaxiActive and currentTaxi and npcDriver then
+        TaskVehicleTempAction(npcDriver, currentTaxi, 6, 1000)  -- Anhalten des Taxis
+        isTaxiStopped = true
+        print("Taxi wurde angehalten.")
+    else
+        print("Kein aktives Taxi.")
+    end
+end, false)
+
+-- CONTINUE THE DRIVE --
+RegisterCommand("gotaxi", function()
+    if isTaxiActive and currentTaxi and npcDriver and destination then
+        TaskVehicleDriveToCoordLongrange(npcDriver, currentTaxi, destination.x, destination.y, destination.z, 15.0, 786603, 10.0)
+        isTaxiStopped = false
+        print("Taxi fährt zum Wegpunkt.")
+    else
+        print("Kein aktives Taxi oder kein Wegpunkt gesetzt.")
+    end
+end, false)
+
+-- CANCEL THE DRIVE --
+RegisterCommand("canceltaxi", function()
+    if isTaxiActive and currentTaxi and npcDriver then
+        DeleteVehicle(currentTaxi)  -- Löscht das Taxi
+        DeletePed(npcDriver)  -- Löscht den NPC-Fahrer
+        currentTaxi = nil
+        npcDriver = nil
+        isTaxiActive = false
+        isTaxiStopped = false
+        print("Fahrt abgebrochen. Taxi wurde gelöscht.")
+    else
+        print("Kein aktives Taxi.")
+    end
+end, false)
