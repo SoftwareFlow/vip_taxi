@@ -15,7 +15,7 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" or "ensure vip_taxi" in your server.cfg - Enjoy your drive!  
 
 # Release-State
-- [x] 1.0.0 Simple Taxi script  
+- [x] v1.0.0 Simple Taxi script  
       - command /taxi  
       - super_diamond vehicle model for luxury feeling  
       - always black car  
