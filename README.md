@@ -5,7 +5,9 @@ This is a simple Taxi-Script for FiveM. Your Personal Driver brings you to your 
 
 # **How to use it**  
 > [!IMPORTANT]  
-> It is important to set the Waypoint first, before you call the taxi  
+> In this version, it is important to set the Waypoint first, before you call the taxi. Otherwise the Taxi will drive a NPC route.  
+> This is a bug and will be fixed in the next Update.  
+
 1. Set your Waypoint at the Map
 2. Type in your chat `/taxi`
 3. The NPC drive you safely trhou the City
@@ -30,7 +32,10 @@ Upload the "vip_taxi" in your ressource folder. Dont forget to "start vip_taxi" 
 - [x] **v1.1.0 more commands for control**  
       - command `/holdtaxi` for immediately hold the drive  
       - command `/gotaxi` for continue the drive  
-      - command `/canceltaxi` for cancel the drive  
+      - command `/canceltaxi` for cancel the drive
+- [ ] **v1.1.2 Bugfixes and Optimizations**  
+      - Fix: If no waypoint set as a destination, npc drive a standard loop  
+      - Taxi will wait for a waypoint, otherwise it stay idle  
 - [ ] *Bugfixes & NUI implentation with buttons*
 - [ ] *Bugfixes & NUI update*
 - [ ] *Music Control in NUI*
